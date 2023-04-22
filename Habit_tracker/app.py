@@ -6,7 +6,7 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 app.register_blueprint(pages)
-client=MongoClient("mongodburl")
+client=MongoClient("mongodburl") #hiding my mongodb url
 app.db=client.tracker
 app.secret_key = 'super secret key'
 app.config['SESSION_TYPE']='filesystem'
