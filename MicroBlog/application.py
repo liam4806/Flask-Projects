@@ -44,4 +44,5 @@ def edithome():
 
     
         
-
+##originally from the lecture, it was unable to edit&delete the entry that user uploaded. So I made a new endpoint "/edit" with new template to make it able to
+#edit and delete the entry that is uploaded. 
