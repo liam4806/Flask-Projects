@@ -4,7 +4,7 @@ import sys
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 application = Flask(__name__)
-client=MongoClient("mongodburl")
+client=MongoClient("mongodburl") #hiding my MongoDB URL
 application.db=client.Microblog
 
 @application.route("/", methods=["GET","POST"])
