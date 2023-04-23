@@ -11,3 +11,5 @@ So I added:
 3. Make habit edit&deleteable.
 4. Add a function to determine if the invalid string is passed through input. (If it is, it will pop the alert message and not receive the string)
 5. Add a function to add habits with date range(Number 4&5 changes were consisted of what I didn't learn yet. So I researched to achieve it)
+
+This is my second Flask Project built on Feb/20/2023
